@@ -1,19 +1,18 @@
 <!-- Q1. -->
 <script>
-  
   function Q1_C1() {
     if (document.getElementById("q1_c1").checked) {
       document.getElementById("q1_c2").disabled = true;
       document.getElementById("q1_c3").disabled = true;
       document.getElementById("q1_c4").disabled = true;
       document.getElementById("q1_c5").disabled = true;
-    
+
     } else {
       document.getElementById("q1_c2").disabled = false;
       document.getElementById("q1_c3").disabled = false;
       document.getElementById("q1_c4").disabled = false;
       document.getElementById("q1_c5").disabled = false;
-     
+
     }
   }
 
@@ -65,13 +64,14 @@
   function Q1_C5() {
     var ck = document.getElementById('q1_c5');
     if (ck.checked == true) {
-      document.getElementById('txt_area_q1_c5').style.display = "";
+      document.getElementById('txt_area_q1_c5').disabled = false;
       document.getElementById("q1_c1").disabled = true;
       document.getElementById("q1_c2").disabled = true;
       document.getElementById("q1_c3").disabled = true;
       document.getElementById("q1_c4").disabled = true;
     } else {
-      document.getElementById('txt_area_q1_c5').style.display = "none";
+      document.getElementById('txt_area_q1_c5').disabled = true;
+      document.getElementById('txt_area_q1_c5').value = "";
       document.getElementById("q1_c1").disabled = false;
       document.getElementById("q1_c2").disabled = false;
       document.getElementById("q1_c3").disabled = false;
@@ -222,13 +222,14 @@
   function Q3_C5() {
     var ck = document.getElementById('q3_c5');
     if (ck.checked == true) {
-      document.getElementById('txt_area_q3_c5').style.display = "";
+      document.getElementById('txt_area_q3_c5').disabled = false;
       document.getElementById("q3_c1").disabled = true;
       document.getElementById("q3_c2").disabled = true;
       document.getElementById("q3_c3").disabled = true;
       document.getElementById("q3_c4").disabled = true;
     } else {
-      document.getElementById('txt_area_q3_c5').style.display = "none";
+      document.getElementById('txt_area_q3_c5').disabled = true;
+      document.getElementById('txt_area_q3_c5').value="";
       document.getElementById("q3_c1").disabled = false;
       document.getElementById("q3_c2").disabled = false;
       document.getElementById("q3_c3").disabled = false;
@@ -303,13 +304,14 @@
   function Q4_C5() {
     var ck = document.getElementById('q4_c5');
     if (ck.checked == true) {
-      document.getElementById('txt_area_q4_c5').style.display = "";
+      document.getElementById('txt_area_q4_c5').disabled = false;
       document.getElementById("q4_c1").disabled = true;
       document.getElementById("q4_c2").disabled = true;
       document.getElementById("q4_c3").disabled = true;
       document.getElementById("q4_c4").disabled = true;
     } else {
-      document.getElementById('txt_area_q4_c5').style.display = "none";
+      document.getElementById('txt_area_q4_c5').disabled = true;
+      document.getElementById('txt_area_q4_c5').value="";
       document.getElementById("q4_c1").disabled = false;
       document.getElementById("q4_c2").disabled = false;
       document.getElementById("q4_c3").disabled = false;
@@ -412,13 +414,14 @@
   function Q6_C4() {
     var ck = document.getElementById('q6_c4');
     if (ck.checked == true) {
-      document.getElementById('txt_area_q6_c4').style.display = "";
+      document.getElementById('txt_area_q6_c4').disabled = false;
       document.getElementById("q6_c1").disabled = true;
       document.getElementById("q6_c2").disabled = true;
       document.getElementById("q6_c3").disabled = true;
       document.getElementById("q6_c5").disabled = true;
     } else {
-      document.getElementById('txt_area_q6_c4').style.display = "none";
+      document.getElementById('txt_area_q6_c4').disabled = true;
+      document.getElementById('txt_area_q6_c4').value ="";
       document.getElementById("q6_c1").disabled = false;
       document.getElementById("q6_c2").disabled = false;
       document.getElementById("q6_c3").disabled = false;
@@ -583,13 +586,14 @@
   function Q8_C5() {
     var ck = document.getElementById('q8_c5');
     if (ck.checked == true) {
-      document.getElementById('txt_area_q8_c5').style.display = "";
+      document.getElementById('txt_area_q8_c5').disabled = false;
       document.getElementById("q8_c1").disabled = true;
       document.getElementById("q8_c2").disabled = true;
       document.getElementById("q8_c3").disabled = true;
       document.getElementById("q8_c4").disabled = true;
     } else {
-      document.getElementById('txt_area_q8_c5').style.display = "none";
+      document.getElementById('txt_area_q8_c5').disabled = true;
+      document.getElementById('txt_area_q8_c5').value = "";
       document.getElementById("q8_c1").disabled = false;
       document.getElementById("q8_c2").disabled = false;
       document.getElementById("q8_c3").disabled = false;
@@ -664,13 +668,14 @@
   function Q9_C5() {
     var ck = document.getElementById('q9_c5');
     if (ck.checked == true) {
-      document.getElementById('txt_area_q9_c5').style.display = "";
+      document.getElementById('txt_area_q9_c5').disabled = false;
       document.getElementById("q9_c1").disabled = true;
       document.getElementById("q9_c2").disabled = true;
       document.getElementById("q9_c3").disabled = true;
       document.getElementById("q9_c4").disabled = true;
     } else {
-      document.getElementById('txt_area_q9_c5').style.display = "none";
+      document.getElementById('txt_area_q9_c5').disabled = true;
+      document.getElementById('txt_area_q9_c5').value = "";
       document.getElementById("q9_c1").disabled = false;
       document.getElementById("q9_c2").disabled = false;
       document.getElementById("q9_c3").disabled = false;
@@ -754,5 +759,3 @@
   }
 </script>
 <!-- Ene Q10. -->
-
-

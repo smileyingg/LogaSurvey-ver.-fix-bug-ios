@@ -54,7 +54,7 @@
               <p>อื่นๆ โปรดระบุ</p>
               <input type="checkbox" id="q1_c5" name="q1" value="อื่นๆ" onclick="Q1_C5()">
               <span class="checkmark"></span>
-              <textarea id="txt_area_q1_c5" name="txt_area_q1_c5" class="form-control" style="width:50%; height:20%; display:none"></textarea>
+              <textarea id="txt_area_q1_c5" name="txt_area_q1_c5" class="form-control" style="width:50%; height:20%;"disabled ></textarea>
             </label>
 
           </div>
@@ -123,7 +123,7 @@
               <p>อื่นๆ โปรดระบุ</p>
               <input type="checkbox" id="q3_c5" name="q3" value="อื่นๆ" onclick="Q3_C5()">
               <span class="checkmark"></span>
-              <textarea id="txt_area_q3_c5" name="txt_area_q3_c5" class="form-control" style="width:50%; height:20%; display:none"></textarea>
+              <textarea id="txt_area_q3_c5" name="txt_area_q3_c5" class="form-control" style="width:50%; height:20%;"disabled ></textarea>
             </label>
           </div>
           <!-- End Q3. -->
@@ -159,7 +159,7 @@
               <p>อื่นๆ โปรดระบุ</p>
               <input type="checkbox" id="q4_c5" name="q4" value="อื่นๆ" onclick="Q4_C5()">
               <span class="checkmark"></span>
-              <textarea id="txt_area_q4_c5" name="txt_area_q4_c5" class="form-control" style="width:50%; height:20%; display:none"></textarea>
+              <textarea id="txt_area_q4_c5" name="txt_area_q4_c5" class="form-control" style="width:50%; height:20%;"disabled ></textarea>
             </label>
           </div>
           <!-- End Q4. -->
@@ -251,16 +251,17 @@
               <input type="checkbox" id="q6_c3" name="q6" value="ผู้จัดการร้าน" onclick="Q6_C3()">
               <span class="checkmark"></span>
             </label>
-            <label class="container">
-              <p>อื่นๆ โปรดระบุ</p>
-              <input type="checkbox" id="q6_c4" name="q6" value="อื่นๆ" onclick="Q6_C4()">
-              <span class="checkmark"></span>
-              <textarea id="txt_area_q6_c4" name="txt_area_q6_c4" class="form-control" style="width:50%; height:20%; display:none"></textarea>
-            </label>
+            
             <label class="container">
               <p>มีพนักงานทุกตำแหน่งดังกล่าวครบถ้วน</p>
               <input type="checkbox" id="q6_c5" name="q6" value="มีพนักงานทุกตำแหน่งดังกล่าวครบถ้วน" onclick="Q6_C5()">
               <span class="checkmark"></span>
+            </label>
+            <label class="container">
+              <p>อื่นๆ โปรดระบุ</p>
+              <input type="checkbox" id="q6_c4" name="q6" value="อื่นๆ" onclick="Q6_C4()">
+              <span class="checkmark"></span>
+              <textarea id="txt_area_q6_c4" name="txt_area_q6_c4" class="form-control" style="width:50%; height:20%;"disabled ></textarea>
             </label>
           </div>
           <!-- End Q6. -->
@@ -331,7 +332,7 @@
               <p>อื่นๆ โปรดระบุ</p>
               <input type="checkbox" id="q8_c5" name="q8" value="อื่นๆ" onclick="Q8_C5()">
               <span class="checkmark"></span>
-              <textarea id="txt_area_q8_c5" name="txt_area_q8_c5" class="form-control" style="width:50%; height:20%; display:none"></textarea>
+              <textarea id="txt_area_q8_c5" name="txt_area_q8_c5" class="form-control" style="width:50%; height:20%;"disabled ></textarea>
             </label>
           </div>
           <!-- End Q8. -->
@@ -367,7 +368,7 @@
               <p>อื่นๆ โปรดระบุ</p>
               <input type="checkbox" id="q9_c5" name="q9" value="อื่นๆ" onclick="Q9_C5()">
               <span class="checkmark"></span>
-              <textarea id="txt_area_q9_c5" name="txt_area_q9_c5" class="form-control" style="width:50%; height:20%; display:none"></textarea>
+              <textarea id="txt_area_q9_c5" name="txt_area_q9_c5" class="form-control" style="width:50%; height:20%;"disabled ></textarea>
             </label>
           </div>
           <!-- End Q9. -->
