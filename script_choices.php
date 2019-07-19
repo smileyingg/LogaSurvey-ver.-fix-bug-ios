@@ -65,6 +65,7 @@
     var ck = document.getElementById('q1_c5');
     if (ck.checked == true) {
       document.getElementById('txt_area_q1_c5').disabled = false;
+      document.getElementById('txt_area_q1_c5').focus();
       document.getElementById("q1_c1").disabled = true;
       document.getElementById("q1_c2").disabled = true;
       document.getElementById("q1_c3").disabled = true;
@@ -223,6 +224,7 @@
     var ck = document.getElementById('q3_c5');
     if (ck.checked == true) {
       document.getElementById('txt_area_q3_c5').disabled = false;
+      document.getElementById('txt_area_q3_c5').focus();
       document.getElementById("q3_c1").disabled = true;
       document.getElementById("q3_c2").disabled = true;
       document.getElementById("q3_c3").disabled = true;
@@ -305,6 +307,7 @@
     var ck = document.getElementById('q4_c5');
     if (ck.checked == true) {
       document.getElementById('txt_area_q4_c5').disabled = false;
+      document.getElementById('txt_area_q4_c5').focus();
       document.getElementById("q4_c1").disabled = true;
       document.getElementById("q4_c2").disabled = true;
       document.getElementById("q4_c3").disabled = true;
@@ -415,6 +418,7 @@
     var ck = document.getElementById('q6_c4');
     if (ck.checked == true) {
       document.getElementById('txt_area_q6_c4').disabled = false;
+      document.getElementById('txt_area_q6_c4').focus();
       document.getElementById("q6_c1").disabled = true;
       document.getElementById("q6_c2").disabled = true;
       document.getElementById("q6_c3").disabled = true;
@@ -587,6 +591,7 @@
     var ck = document.getElementById('q8_c5');
     if (ck.checked == true) {
       document.getElementById('txt_area_q8_c5').disabled = false;
+      document.getElementById('txt_area_q8_c5').focus();
       document.getElementById("q8_c1").disabled = true;
       document.getElementById("q8_c2").disabled = true;
       document.getElementById("q8_c3").disabled = true;
@@ -669,6 +674,7 @@
     var ck = document.getElementById('q9_c5');
     if (ck.checked == true) {
       document.getElementById('txt_area_q9_c5').disabled = false;
+      document.getElementById('txt_area_q9_c5').focus();
       document.getElementById("q9_c1").disabled = true;
       document.getElementById("q9_c2").disabled = true;
       document.getElementById("q9_c3").disabled = true;
